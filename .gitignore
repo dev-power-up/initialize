@@ -1,0 +1,21 @@
+# Miscellaneous
+*.class
+*.lock
+*.log
+*.pyc
+*.swp
+.DS_Store
+.atom/
+.buildlog/
+.history
+.svn/
+
+# Visual Studio Code related
+.classpath
+.project
+.settings/
+.vscode/
+
+# Repo specific
+/bin/cache/
+version
