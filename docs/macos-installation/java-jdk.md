@@ -9,4 +9,4 @@ Download the appropriate Java JDK from Oracle and follow the installation instru
 | Version 10.0.0/10.0.1 | Java SE Development Kit 8      | [jdk-8u241-macosx-x64.dmg](https://www.oracle.com/java/technologies/javase-jdk8-downloads.html)|
 | Version 10.0.2     | Java SE Development Kit 11   | [jdk-11.0.6_osx-x64_bin.dmg](https://www.oracle.com/java/technologies/javase-jdk11-downloads.html)|
 
-If working with multiple product versions, be sure to install multiple Java JDK versions.
+If working with multiple product versions, be sure to install the required multiple Java JDK versions.

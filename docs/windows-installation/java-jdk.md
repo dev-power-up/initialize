@@ -7,6 +7,6 @@ Download the appropriate Java JDK from Oracle and follow the installation instru
 | Version 8          | Java SE Development Kit 7      | [jdk-7u80-windows-x64.exe](https://www.oracle.com/java/technologies/javase/javase7-archive-downloads.html)|
 | Version 9          | Java SE Development Kit 8      | [jdk-8u241-windows-x64.exe](https://www.oracle.com/java/technologies/javase-jdk8-downloads.html)|
 | Version 10.0.0/10.0.1 | Java SE Development Kit 8      | [jdk-8u241-windows-x64.exe](https://www.oracle.com/java/technologies/javase-jdk8-downloads.html)|
-| Version 10.0.2     | Java SE Development Kit 11   | [dk-11.0.6_windows-x64_bin.exe](https://www.oracle.com/java/technologies/javase-jdk11-downloads.html)|
+| Version 10.0.2     | Java SE Development Kit 11   | [jdk-11.0.6_windows-x64_bin.exe](https://www.oracle.com/java/technologies/javase-jdk11-downloads.html)|
 
-If working with multiple product versions, be sure to install multiple Java JDK versions.
+If working with multiple product versions, be sure to install the required multiple Java JDK versions.

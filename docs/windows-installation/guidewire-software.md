@@ -4,12 +4,13 @@
 
 We recommend a folder hierarchy similar to below. Extract the base Guidewire Software product into the appropriate folder. If using QuickCenter Launcher, the full path will need to be referenced the related property file. 
 
-```bash
+```text
 └── Guidewire
-    ├── BillingCenter
-    ├── ClaimCenter
-    ├── ContactManager
-    ├── PolicyCenter
+    └── Suite
+        ├── BillingCenter
+        ├── ClaimCenter
+        ├── ContactManager
+        ├── PolicyCenter
     └── QuickCenter
 ```
 
@@ -24,20 +25,26 @@ Creating a local Sandbox of the base products can be done in several ways.
 
 ### Option 1
 
-Create a separate hierarchy with a new common parent folder:
+This is our favorite option to organize a workspace. In this example, a separate Suite hierarchy is created under the root Guidewire folder.
 
 ```text
-└── GuidewireSB
-    ├── BillingCenter
-    ├── ClaimCenter
-    ├── ContactManager
-    ├── PolicyCenter
+└── Guidewire
+    └── Suite
+        ├── BillingCenter
+        ├── ClaimCenter
+        ├── ContactManager
+        ├── PolicyCenter
+    └── Suite-SB
+        ├── BillingCenter
+        ├── ClaimCenter
+        ├── ContactManager
+        ├── PolicyCenter
     └── QuickCenter
 ```
 
 ### Option 2
 
-Add the base Guidewire products in separate folders within the parent Guidewire folder. 
+Folder organization is a matter of personal preference and QuickCenter Launcher is flexible with any option. Most developers adhere to a Guidewire root folder with the product directly below. In this example, add base Guidewire products in separate unique folders within the parent Guidewire folder. 
 
 ```text
 └── Guidewire
@@ -51,4 +58,25 @@ Add the base Guidewire products in separate folders within the parent Guidewire 
     ├── SBContactManager
     └── SBPolicyCenter
 ```
-!> Running a Sandbox version while running a configured version requires separate listening ports to avoid collisions. (A future guide will address this.)
+
+### Option 3
+
+Similar to Option 2, the Guidewire root folder holds the products directly beneath. In this example, create another root Guidewire folder with a second QuickCenter configuration.
+
+```text
+└── Guidewire
+    ├── BillingCenter
+    ├── ClaimCenter
+    ├── ContactManager
+    ├── PolicyCenter
+    └── QuickCenter
+
+└── GuidewireSB
+    ├── BillingCenter
+    ├── ClaimCenter
+    ├── ContactManager
+    ├── PolicyCenter
+    └── QuickCenter
+```
+
+!> Running a Sandbox version while running a configured version requires separate listening ports and database configurations to avoid collisions.
