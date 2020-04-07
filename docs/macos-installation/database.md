@@ -4,11 +4,11 @@ As you may know, Guidewire Software applications use the H2 database. Here is a 
 
 ## Multiple Workspaces/Products
 
-The default database location is ```/tmp/guidewire``` but this can cause issues when using multiple product instances. In other words, ```SBPolicyCenter``` and ```PolicyCenter``` will reference the same database unless the database configuration is modified. For each local workspace or product, modify the ```database-config.xml``` JDBC URL for your local environment etnry. 
+The default database location is ```/tmp/guidewire``` but this can cause issues when using multiple product instances. In other words, ```Suite-SB/PolicyCenter``` and ```PolicyCenter``` will reference the same database unless the database configuration is modified. For each local workspace or product, modify the ```database-config.xml``` JDBC URL for your local environment etnry. 
 
 For example, given PolicyCenter is stored here:
 
-```/Users/username/Guidewire/PolicyCenter/```
+```/Users/username/Guidewire/Suite/PolicyCenter/```
 
 Change the ```jdbc-url``` node in database-config.xml:
 
@@ -16,7 +16,7 @@ Change the ```jdbc-url``` node in database-config.xml:
 
 Change the entire path to an explicit and unique path:
 
-```jdbc-url="jdbc:h2:file:/Users/username/Guidewire/PolicyCenter/modules/db/pc;CACHE_SIZE=32000"```
+```jdbc-url="jdbc:h2:file:/Users/username/Guidewire/Suite/PolicyCenter/modules/db/pc;CACHE_SIZE=32000"```
 
 ### Option 2
 
