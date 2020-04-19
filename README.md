@@ -1,22 +1,22 @@
-# QuickCenter Initialize
+# Dev Power-Up! Initialize
 
 A guide on setting up Guidewire Software applications fast.
 
 ## Documentation
 
-* [Initialize](https://quickcenter.github.io/initialize/)
+* [Initialize](https://dev-power-up.github.io/initialize/)
 
 ## Related Tool
 
-[QuickCenter Launcher](https://quickcenter.github.io/launcher/) is useful with:
+[Dev Power-Up! Launcher](https://dev-power-up.github.io/launcher/) is useful with:
 
 - **Multiple environments**. Oftentimes a local sandbox environment is beneficial for review and inspection alongside the configured environment.
 - **Multiple application versions**. Different application versions may require different Java JDKs, such as the case where ClaimCenter 8.0.5 is in production and PolicyCenter 10.0.2 is in active development.
 - **Multiple workspaces**. It is common practice to use a second, separate cloned configured environment to test concepts.
 
-## About QuickCenter
+## About Dev Power-Up!
 
-QuickCenter is a set of tools developers use with Guidewire Software implementations.
+Dev Power-Up! is a set of tools developers use with Guidewire Software implementations.
 
 ## History & Inception
 

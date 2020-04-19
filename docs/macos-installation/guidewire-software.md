@@ -1,8 +1,8 @@
 # Guidewire Software
 
-> [QuickCenter Launcher](https://github.com/QuickCenter/launcher) is a great addition to manage and run separate environments and workspaces.
+> [Dev Power-Up! Launcher](https://github.com/dev-power-up/launcher) is a great addition to manage and run separate environments and workspaces.
 
-We recommend a folder hierarchy similar to below. Extract the base Guidewire Software product into the appropriate folder. If using QuickCenter Launcher, the full path will need to be referenced the related property file. 
+We recommend a folder hierarchy similar to below. Extract the base Guidewire Software product into the appropriate folder. If using Dev Power-Up! Launcher, the full path will need to be referenced the related property file. 
 
 ```text
 └── Guidewire
@@ -11,7 +11,7 @@ We recommend a folder hierarchy similar to below. Extract the base Guidewire Sof
         ├── ClaimCenter
         ├── ContactManager
         ├── PolicyCenter
-    └── QuickCenter
+    └── Dev-Power-Up
 ```
 
 ## Configuration Setup
@@ -39,12 +39,12 @@ This is our favorite option to organize a workspace. In this example, a separate
         ├── ClaimCenter
         ├── ContactManager
         ├── PolicyCenter
-    └── QuickCenter
+    └── Dev-Power-Up
 ```
 
 ### Option 2
 
-Folder organization is a matter of personal preference and QuickCenter Launcher is flexible with any option. Most developers adhere to a Guidewire root folder with the product directly below. In this example, add base Guidewire products in separate unique folders within the parent Guidewire folder. 
+Folder organization is a matter of personal preference and Dev Power-Up! Launcher is flexible with any option. Most developers adhere to a Guidewire root folder with the product directly below. In this example, add base Guidewire products in separate unique folders within the parent Guidewire folder. 
 
 ```text
 └── Guidewire
@@ -52,16 +52,16 @@ Folder organization is a matter of personal preference and QuickCenter Launcher 
     ├── ClaimCenter
     ├── ContactManager
     ├── PolicyCenter
-    ├── QuickCenter
     ├── SBBillingCenter
     ├── SBClaimCenter
     ├── SBContactManager
-    └── SBPolicyCenter
+    ├── SBPolicyCenter
+    └── Dev-Power-Up
 ```
 
 ### Option 3
 
-Similar to Option 2, the Guidewire root folder holds the products directly beneath. In this example, create another root Guidewire folder with a second QuickCenter configuration.
+Similar to Option 2, the Guidewire root folder holds the products directly beneath. In this example, create another root Guidewire folder with a second Dev Power-Up! configuration.
 
 ```text
 └── Guidewire
@@ -69,14 +69,14 @@ Similar to Option 2, the Guidewire root folder holds the products directly benea
     ├── ClaimCenter
     ├── ContactManager
     ├── PolicyCenter
-    └── QuickCenter
+    └── Dev-Power-Up
 
 └── GuidewireSB
     ├── BillingCenter
     ├── ClaimCenter
     ├── ContactManager
     ├── PolicyCenter
-    └── QuickCenter
+    └── Dev-Power-Up
 ```
 
 !> Running a Sandbox version while running a configured version requires separate listening ports and database configurations to avoid collisions.
