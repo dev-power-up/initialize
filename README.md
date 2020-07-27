@@ -4,11 +4,11 @@ A guide on setting up Guidewire Software applications fast.
 
 ## Documentation
 
-* [Initialize](https://dev-power-up.github.io/initialize/)
+* [Initialize](https://github.com/dev-power-up/initialize/)
 
 ## Related Tool
 
-[Dev Power-Up! Launcher](https://dev-power-up.github.io/launcher/) is useful with:
+[Dev Power-Up! Launcher](https://github.com/dev-power-up/launcher/) is useful with:
 
 - **Multiple environments**. Oftentimes a local sandbox environment is beneficial for review and inspection alongside the configured environment.
 - **Multiple application versions**. Different application versions may require different Java JDKs, such as the case where ClaimCenter 8.0.5 is in production and PolicyCenter 10.0.2 is in active development.
