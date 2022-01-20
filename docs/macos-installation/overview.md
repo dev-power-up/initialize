@@ -17,7 +17,7 @@ For example, starting PolicyCenter 10.0.3 Studio for the first times calls for m
 !> Repeat the following process for the Java application and dynamic libraries.
 
 1. Launch Studio
-```sh pc-studio```
+```sh pc_studio```
 
 2. Click the Cancel button when the first dialog box appears
 
@@ -30,7 +30,7 @@ For example, starting PolicyCenter 10.0.3 Studio for the first times calls for m
 ![](../_assets/security-2.jpg)
 
 5. Launch Studio
-```sh pc-studio```
+```sh pc_studio```
 
 6. Click the Open button when the dialgo box appears
 
